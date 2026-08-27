@@ -30,7 +30,7 @@
     "guarding": true
   },
   "ai": {
-    "enabled": false,
+    "enabled": true,
     "model": "gemini-flash-latest"
   }
 }
