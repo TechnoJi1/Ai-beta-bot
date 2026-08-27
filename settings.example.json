@@ -1,16 +1,16 @@
 {
   "server": {
-    "host": "localhost",
-    "port": 25565,
+    "host": "OmegaXsan.aternos.me",
+    "port": 24717,
     "version": "1.20.4"
   },
   "bot": {
-    "username": "worker_bot",
+    "username": "Ismail",
     "auth": "offline"
   },
   "access": {
     "commandUsernames": [
-      "YourMinecraftUsername"
+      "Ismail"
     ]
   },
   "home": {
