@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-worker-bot",
+  "version": "1.0.0",
+  "description": "A Mineflayer-based Minecraft worker bot with mining, farming, guarding, whitelisted chat commands, and optional Gemini-powered free-form chat interpretation.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "mineflayer": "^4.38.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "tsx": "^4.23.12"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
